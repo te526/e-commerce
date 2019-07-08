@@ -1,0 +1,63 @@
+body{
+    background-color: darkred;
+}
+
+.compound {
+    border: 5px solid #ccc;
+    padding: 80px;
+    margin: 72px;
+    border-radius: 20px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+   
+}
+
+.compound>header {
+    top: -60px;
+    float: top;
+}
+
+.container-1 {
+    flex: 1;
+    justify-content: space-around;
+}
+
+.container-2 {
+    flex: 1;  
+}
+
+.container-3 {
+    flex: 1;
+}
+
+.container-4 {
+    flex: 1;
+}
+
+.container-5 {
+    flex: 1;
+}
+
+.container-6 {
+    flex: 1;
+}
+
+.container-7 {
+    flex: 1;
+}
+.axe{
+    margin-bottom: 300px;
+    padding-top: -200px;
+    margin-top: -150px;
+    float: right;
+}
+
+.axe>button {
+    float: right;
+    margin: none;
+    border: none;
+    position: relative;
+
+}
